@@ -29,7 +29,7 @@
 
 ## Content
 
-- [Azuer SPN Login](#Azuer SPN Login)
+- Azuer SPN Login
   - [Content](#content)
   - [Installation](#installation)
   - [Usage](#usage)
