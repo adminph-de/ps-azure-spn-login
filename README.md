@@ -40,11 +40,10 @@
 
 ## Installation
 
-clone the reop ```https://git.com/adminph-de/ps-azure-spn-login``` to start.
+clone the git reop to start.
+```url
+https://git.com/adminph-de/ps-azure-spn-login``` 
 
-```bash
-pip install foobar
-```
 
 ## Usage
 
