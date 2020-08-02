@@ -18,7 +18,7 @@
     <img src="images/logo.png" alt="Code Snipes" width="35%" height="35%">
   </a>
   <p align="left">
-    Foobar is a Python library for dealing with word pluralization.
+    Use Azure SPN Account to run your PowerShell scripts.
     <br />
     <a href="https://github.com/adminph-de/ps-code-snipes/issues">Bug Report</a>
     ·
