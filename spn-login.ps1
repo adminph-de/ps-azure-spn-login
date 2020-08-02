@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory=$true)]
-    [string]$jsonfile
+    [string]$JsonFile
 )
 
 $json = Get-Content -Raw -Path $jsonfile | ConvertFrom-Json

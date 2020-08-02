@@ -40,8 +40,9 @@
 
 ## Installation
 
-clone the git reop to start.
-```url
+```bash
+Clone the git reop to start.
+
 https://git.com/adminph-de/ps-azure-spn-login
 ``` 
 
@@ -60,6 +61,16 @@ change the JSON file (spn-login.json)
      }
     }
 ]
+
+Execute the script:
+
+spn-login.ps1 -JsonFile spn-account.json
+
+>Outpurt:
+You are authenicated (SPN) by:
+SPN_ID    : 0000000-0000-0000-0000-00000000000
+TENANT_ID : 0000000-0000-0000-0000-00000000000
+Don't forget to select a Subscrtiption by going ahead<
 ```
 
 ## Contributing
