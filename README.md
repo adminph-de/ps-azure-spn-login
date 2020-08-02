@@ -3,7 +3,7 @@
 *** adminph-de, ps-azure-spn-login, N00ky2010, patrick.hayo@flsmidth.com
 -->
 
-# Azuer SPN Login
+# Azuer Service Principal (SPN) Login 
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -29,7 +29,7 @@
 
 ## Content
 
-- Azuer SPN Login
+- Azuer Service Principal (SPN) Login
   - [Content](#content)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -37,6 +37,7 @@
   - [License](#license)
   - [Contact](#contact)
   - [Acknowledgements](#acknowledgements)
+  - [Referenzes](#referenzes)
 
 ## Installation
 
@@ -107,6 +108,11 @@ Project Link: [https://github.com/adminph-de/ps-azure-spn-login](https://github.
 * [Jakob Daugaard](https://www.linkedin.com/in/jakobdaugaard/?locale=en_US)
 * [Senthil Kumar Bose](https://www.linkedin.com/in/senthil-kumar-bose-6900582/)
 * [Javed Khan](https://www.linkedin.com/in/javed-khan-674863164/)
+
+
+##Referenzes
+
+* [Create an Azure service principal](https://docs.microsoft.com/en-us/powershell/azure/create-azure-service-principal-azureps?view=azps-4.4.0)
 
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
