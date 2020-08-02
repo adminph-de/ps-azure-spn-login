@@ -50,7 +50,7 @@ https://git.com/adminph-de/ps-azure-spn-login
 ## Usage
 
 ```json
-change the JSON file (spn-login.json):
+**Change the JSON file (spn-login.json):**
 
 [
     {
