@@ -39,13 +39,13 @@
   - [Acknowledgements](#acknowledgements)
   - [Referenzes](#referenzes)
 
+
 ## Installation
 
 Clone the git reop to start:
 ```bash
 https://git.com/adminph-de/ps-azure-spn-login
 ``` 
-
 
 ## Usage
 
@@ -76,6 +76,7 @@ Don't forget to select a Subscrtiption by going ahead
 ```
 >Check my usage of the code-snipe as an example in [ps-powerbi-asr-report](http://github.code-snipes.de/ps-powerbi-asr-report). I used it in the ``report.ps1`` script to authenticate before executing the script.
 
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -99,7 +100,6 @@ Project Link: [https://github.com/adminph-de/ps-azure-spn-login](https://github.
 [Patrick Hayo](patrick.hayo@flsmidth.com)
 
 [![N00ky2010](https://img.shields.io/twitter/follow/N00ky2010)](https://www.twitter.com/N00ky2010)
-
 
 
 ## Acknowledgements
