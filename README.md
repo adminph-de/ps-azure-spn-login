@@ -110,7 +110,7 @@ Project Link: [https://github.com/adminph-de/ps-azure-spn-login](https://github.
 * [Javed Khan](https://www.linkedin.com/in/javed-khan-674863164/)
 
 
-##Referenzes
+## Referenzes
 
 * [Create an Azure service principal](https://docs.microsoft.com/en-us/powershell/azure/create-azure-service-principal-azureps?view=azps-4.4.0)
 
