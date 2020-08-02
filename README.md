@@ -73,7 +73,7 @@ SPN_ID    : 0000000-0000-0000-0000-00000000000
 TENANT_ID : 0000000-0000-0000-0000-00000000000
 Don't forget to select a Subscrtiption by going ahead
 ```
->Check my usage of the code-snipe as an example at: http://github.code-snipes.de/ps-azure-spn-login/  I used it in the ``report.ps1``script to authenticate before run the script.
+>Check my usage of the code-snipe as an example in [ps-powerbi-asr-report](http://github.code-snipes.de/ps-powerbi-asr-report). I used it in the ``report.ps1``script to authenticate before executing the script.
 
 ## Contributing
 
