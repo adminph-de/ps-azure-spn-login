@@ -87,8 +87,6 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-Please make sure to update tests as appropriate.
-
 ## License
 
 Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See `LICENSE` for more information.
