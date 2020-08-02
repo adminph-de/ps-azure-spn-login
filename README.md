@@ -40,9 +40,8 @@
 
 ## Installation
 
+Clone the git reop to start:
 ```bash
-Clone the git reop to start.
-
 https://git.com/adminph-de/ps-azure-spn-login
 ``` 
 
