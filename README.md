@@ -1,9 +1,9 @@
 <!--
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** adminph-de, ps-code-snipes, N00ky2010, patrick.hayo@flsmidth.com
+*** adminph-de, ps-azure-spn-login, N00ky2010, patrick.hayo@flsmidth.com
 -->
 
-# Foobar
+# Azuer SPN Login
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -14,22 +14,22 @@
 
 <br />
 <p align="left">
-  <a href="https://github.com/adminph-de/ps-code-snipes">
+  <a href="https://github.com/adminph-de/ps-azure-spn-login">
     <img src="images/logo.png" alt="Code Snipes" width="35%" height="35%">
   </a>
   <p align="left">
     Use Azure SPN Account to run your PowerShell scripts.
     <br />
-    <a href="https://github.com/adminph-de/ps-code-snipes/issues">Bug Report</a>
+    <a href="https://github.com/adminph-de/ps-azure-spn-login/issues">Bug Report</a>
     ·
-    <a href="https://github.com/adminph-de/ps-code-snipes/issues">Request Feature</a>
+    <a href="https://github.com/adminph-de/ps-azure-spn-login/issues">Request Feature</a>
   </p>
 </p>
 
 
 ## Content
 
-- [Foobar](#foobar)
+- [Azuer SPN Login](#Azuer SPN Login)
   - [Content](#content)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -40,7 +40,7 @@
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+clone the reop ```https://git.com/adminph-de/ps-azure-spn-login``` to start.
 
 ```bash
 pip install foobar
@@ -48,12 +48,18 @@ pip install foobar
 
 ## Usage
 
-```python
-import foobar
+```json
+change the JSON file (spn-login.json)
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+[
+    {
+       "object": {
+           "TENANT_ID": "0000000-0000-0000-0000-00000000000",
+           "SPN_ID": "0000000-0000-0000-0000-00000000000",
+           "SPN_PW": "yourSecretSPNpassword"
+     }
+    }
+]
 ```
 
 ## Contributing
@@ -68,7 +74,7 @@ Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. S
 
 ## Contact
 
-Project Link: [https://github.com/adminph-de/ps-code-snipes](https://github.com/adminph-de/ps-code-snipes)
+Project Link: [https://github.com/adminph-de/ps-azure-spn-login](https://github.com/adminph-de/ps-azure-spn-login)
 
 [Patrick Hayo](patrick.hayo@flsmidth.com)
 
@@ -85,16 +91,16 @@ Project Link: [https://github.com/adminph-de/ps-code-snipes](https://github.com/
 
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/adminph-de/ps-code-snipes.svg?style=flat-square
-[contributors-url]: https://github.com/adminph-de/ps-code-snipes/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/adminph-de/ps-code-snipes.svg?style=flat-square
-[forks-url]: https://github.com/adminph-de/ps-code-snipes/network/members
-[stars-shield]: https://img.shields.io/github/stars/adminph-de/ps-code-snipes.svg?style=flat-square
-[stars-url]: https://github.com/adminph-de/ps-code-snipes/stargazers
-[issues-shield]: https://img.shields.io/github/issues/adminph-de/ps-code-snipes.svg?style=flat-square
-[issues-url]: https://github.com/adminph-de/ps-code-snipes/issues
-[license-shield]: https://img.shields.io/github/license/adminph-de/ps-code-snipes.svg?style=flat-square
-[license-url]: https://github.com/adminph-de/ps-code-snipes/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/adminph-de/ps-azure-spn-login.svg?style=flat-square
+[contributors-url]: https://github.com/adminph-de/ps-azure-spn-login/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/adminph-de/ps-azure-spn-login.svg?style=flat-square
+[forks-url]: https://github.com/adminph-de/ps-azure-spn-login/network/members
+[stars-shield]: https://img.shields.io/github/stars/adminph-de/ps-azure-spn-login.svg?style=flat-square
+[stars-url]: https://github.com/adminph-de/ps-azure-spn-login/stargazers
+[issues-shield]: https://img.shields.io/github/issues/adminph-de/ps-azure-spn-login.svg?style=flat-square
+[issues-url]: https://github.com/adminph-de/ps-azure-spn-login/issues
+[license-shield]: https://img.shields.io/github/license/adminph-de/ps-azure-spn-login.svg?style=flat-square
+[license-url]: https://github.com/adminph-de/ps-azure-spn-login/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/patrickhayo/?locale=en_US
 [product-screenshot]: images/screenshot.png
