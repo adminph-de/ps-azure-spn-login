@@ -50,7 +50,7 @@ https://git.com/adminph-de/ps-azure-spn-login
 ## Usage
 
 ```json
-change the JSON file (spn-login.json)
+change the JSON file (spn-login.json):
 
 [
     {
@@ -61,16 +61,19 @@ change the JSON file (spn-login.json)
      }
     }
 ]
-
+```
+```bash
 Execute the script:
 
 spn-login.ps1 -JsonFile spn-account.json
+```
+```
+Script Output:
 
->Outpurt:
 You are authenicated (SPN) by:
 SPN_ID    : 0000000-0000-0000-0000-00000000000
 TENANT_ID : 0000000-0000-0000-0000-00000000000
-Don't forget to select a Subscrtiption by going ahead<
+Don't forget to select a Subscrtiption by going ahead
 ```
 
 ## Contributing
